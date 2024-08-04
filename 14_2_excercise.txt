@@ -1,0 +1,19 @@
+var PI = 3.14;
+PI = 42; // stop me from doing this!
+
+Changing "var" to "const" would set PI to be un-redeclarable.
+
+
+Quiz:
+What is the difference between var and let?
+    "Var" is the older way of declaring variables compared to the more modern "let". The main difference is that let changes the scope of the variable to be more narrow and also doesn't allow for re-declaration.
+
+What is the difference between var and const?
+    Const is a means of declaring a function that will be un-reassignable and un-redeclarable. Like "let" it will also have a more narrow scope compared to using "var".
+
+What is the difference between let and const?
+    Let and const will both be un-redeclarable however const will also have the property of being un-reassignable. While both are mutable, once a const is declared it solidifies itself one time inside the scope it is declared in.
+
+What is hoisting?
+    The level to which the code will read and try to define the variable. Var is hoisted when the program tries loading while lets and const will only be handled upon reaching the line they are relevant in.
+    
